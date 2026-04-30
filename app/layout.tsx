@@ -16,7 +16,14 @@ export const metadata: Metadata = {
   title: "VoltTrace | Digital Carbon Footprint Analyzer",
   description: "Monitor and analyze the environmental impact of your web applications in real-time.",
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/favicon.ico?v=2" },
+      { url: "/favicon.png?v=2", type: "image/png" },
+    ],
+    shortcut: ["/favicon.ico?v=2"],
+    apple: [
+      { url: "/favicon.png?v=2" },
+    ],
   },
 };
 
